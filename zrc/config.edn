@@ -22,7 +22,7 @@
   :base-url              #env AIDBOX_BASE_URL
   :port                  #env-integer AIDBOX_PORT
   :thread                8
-  :max-body              10000000
+  :max-body              200000000
   :request-save-raw-body false}
 
  search-config
