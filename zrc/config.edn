@@ -31,7 +31,7 @@
   :fhir-comparisons true
   :include {:conformant true}
   :default-params   {:timeout 30
-                     :total   "none"
+                     :total   "accurate"
                      :count   100}
   :chain            {:subselect true}}
 
